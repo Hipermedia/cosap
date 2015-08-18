@@ -1,0 +1,32 @@
+
+/*------------------------------------------------*/
+/*-----------------[ARTÍCULOS]--------------------*/
+/*------------------------------------------------*/
+
+/* Resumen de artículos */
+.resumen-articulo {
+	padding: 1rem 0;
+	width: 100%;
+	float: left;
+	clear: none;
+	margin: 0;
+	border-bottom: #3D3D3D solid 2px;
+
+	&:last-child {
+		border-bottom: none;
+	} 
+	
+	.descripcion {		
+		p {
+			margin: 0;
+			padding: .35rem 0;
+			font-size: 1.1rem; 
+		}
+	}
+	.imagen img {
+		float: none;
+		width:100%;	
+	}
+}
+
+
